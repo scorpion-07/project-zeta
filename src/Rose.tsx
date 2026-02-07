@@ -83,6 +83,7 @@ export default function Rose() {
         They say every rose has thorns,
         but choosing you has only ever felt
         like choosing something right 🌹
+        (I know it's too much but I can't help it 😭)
       </p>
 
       <div

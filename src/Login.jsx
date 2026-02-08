@@ -3,8 +3,6 @@ import { useNavigate } from 'react-router-dom'
 import SHA256 from 'crypto-js/sha256'
 import './Login.css'
 
-const VALID_USERNAME = 'Shreya'
-
 export default function Login() {
   const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')

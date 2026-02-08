@@ -93,7 +93,7 @@ export default function Rose() {
           color: '#9ca3af',
         }}
       >
-        ↓ Come back tomorrow for some more digital surprises 🌸
+        ↓ Welcome Back! 🌹 Scroll Down to see what's next 🌹
       </div>
     </section>
   )

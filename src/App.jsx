@@ -1,6 +1,7 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
 import Login from './Login'
 import Rose from './Rose.tsx'
+import ProposeDay from './ProposeDay.tsx'
 import './App.css'
 
 function isAuth() {
@@ -31,6 +32,7 @@ function App() {
         element={
           <ProtectedRoute>
             <Rose />
+            <ProposeDay />
           </ProtectedRoute>
         }
       />

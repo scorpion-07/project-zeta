@@ -5,8 +5,8 @@ export default function ProposeDay() {
   const [noStyle, setNoStyle] = useState({})
 
   const moveNoButton = () => {
-    const x = Math.random() * 300 - 60;
-    const y = Math.random() * 300 - 60;
+    const x = Math.random() * 180 - 60;
+    const y = Math.random() * 180 - 60;
 
     setNoStyle({
       transform: `translate(${x}px, ${y}px)`,

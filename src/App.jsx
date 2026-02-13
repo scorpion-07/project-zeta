@@ -6,6 +6,7 @@ import ChocolateDay from './ChocolateDay.tsx'
 import TeddyDay from './TeddyDay.tsx'
 import PromiseDay from './PromiseDay.tsx'
 import HugDay from './HugDay.tsx'
+import KissDay from './KissDay.tsx'
 import './App.css'
 
 function isAuth() {
@@ -41,6 +42,7 @@ function App() {
             <TeddyDay />
             <PromiseDay />
             <HugDay />
+            <KissDay />
           </ProtectedRoute>
         }
       />

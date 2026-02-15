@@ -30,7 +30,7 @@ function Home() {
   )
 }
 
-function App() {
+export default function App() {
   return (
     <Routes>
       <Route

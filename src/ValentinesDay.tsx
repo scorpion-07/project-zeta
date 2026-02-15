@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 export default function ValentinesDay() {
-  const [open, setOpen] = useState(null)
+  const [open, setOpen] = useState<string | null>(null)
 
   const qualities = {
     Strength:
